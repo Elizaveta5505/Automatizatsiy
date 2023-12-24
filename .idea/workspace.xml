@@ -4,12 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09e0fd2d-5386-4a6f-91ab-52b341044150" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="09e0fd2d-5386-4a6f-91ab-52b341044150" name="Changes" comment="HomeWork3">
+      <change afterPath="$PROJECT_DIR$/db/home/migration/V1_1_0__add_product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/home/migration/V2_1_0__add_customers.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/home/migration/V3_1_0__add_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/home/migration/V4_1_0__add_orders_products.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/home/migration/V5_1_0__add_courier.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/home/migration/V6_1_0__delivery.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.10.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/CourierInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/CustomersEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/DeliveryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/MainHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/OrdersEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/OrdersProductsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/OrdersProductsEntityPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/max/home/ProductsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/home/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/home/CourierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/AdministrativeArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Elevation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/GeoPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Imperial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Metric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/Region.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/SupplementalAdminArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/location/TimeZone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/DailyForecast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Day.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Headline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Maximum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Minimum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Night.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Temperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/max/lesson3/home/accuweather/weather/Weather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tests.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccuweatherAbstractTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ForecastsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather_demo.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather_home.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather_seminar.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/demo_spoonacular.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/home_spoonacular.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/seminar_spoonacular.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/spoonacular.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,21 +80,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ZdW0yFnrIfDD2KFzwqcuZnATxW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ПК/OneDrive/Рабочий стол/Automatizatsiy"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ПК/OneDrive/Рабочий стол/Automatizatsiy&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.CourierTest (1)">
+    <configuration name="CourierTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.home" />
+      <option name="MAIN_CLASS_NAME" value="org.max.home.CourierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.org.max.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.org.max.home" />
+      <option name="MAIN_CLASS_NAME" value="java.org.max.home.CourierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierTest.getCourier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.org.max.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.org.max.home" />
+      <option name="MAIN_CLASS_NAME" value="java.org.max.home.CourierTest" />
+      <option name="METHOD_NAME" value="getCourier" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourierTest (1)" />
+        <item itemvalue="JUnit.CourierTest" />
+        <item itemvalue="JUnit.CourierTest.getCourier" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702752217970</updated>
     </task>
+    <task id="LOCAL-00001" summary="HomeWork3">
+      <created>1702753099491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702753099491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,5 +193,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="HomeWork3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork3" />
   </component>
 </project>
