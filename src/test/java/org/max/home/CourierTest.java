@@ -21,6 +21,7 @@ public class CourierTest extends AbstractTest {
     @Order(1)
     void getCourier() throws SQLException {
         //given
+        //Тут и далее по тестам таблица называется не courier, а courier_info
         String sql = "SELECT * FROM courier";
         Statement stmt  = getConnection().createStatement();
         int countTableSize = 0;
@@ -39,6 +40,10 @@ public class CourierTest extends AbstractTest {
     @CsvSource({"John, Rython", "Kate , Looran"})
     void getCourierById(String name, String lastName) throws SQLException {
         //given
+        //Не понятно что запрос такой
+        //поля name в таблице нет
+        //у Вас "John, Rython" и "Kate , Looran" используются как параметры, т.е. по сути для двух тестов, но Вы используете их в одном запросе
+        //'John, Rython' состоит как раз из first_name = John, last_name = Rython
         String sql = "SELECT * FROM courier WHERE first_name='John, Rython' + name + 'Kate , Looran'";
         Statement stmt  = getConnection().createStatement();
         String nameString = "";
